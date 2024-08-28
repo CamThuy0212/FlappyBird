@@ -2649,6 +2649,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/matter-js@npm:^0.19.7":
+  version: 0.19.7
+  resolution: "@types/matter-js@npm:0.19.7"
+  checksum: 6dc1105fd9e9efed1d0eccc5692951dfea64d6395409a8f5ee3082b0df30f8f0b2c1e7a0f9d9776080a8db52969ee97ab2d930c14fee51d29e8114b589877f37
+  languageName: node
+  linkType: hard
+
 "@types/node-forge@npm:^1.3.0":
   version: 1.3.11
   resolution: "@types/node-forge@npm:1.3.11"
@@ -4980,14 +4987,17 @@ __metadata:
     "@react-native/eslint-config": 0.75.2
     "@react-native/metro-config": 0.75.2
     "@react-native/typescript-config": 0.75.2
+    "@types/matter-js": ^0.19.7
     "@types/react": ^18.2.6
     "@types/react-test-renderer": ^18.0.0
     babel-jest: ^29.6.3
     eslint: ^8.19.0
     jest: ^29.6.3
+    matter-js: ^0.20.0
     prettier: 2.8.8
     react: 18.3.1
     react-native: 0.75.2
+    react-native-game-engine: ^1.2.0
     react-test-renderer: 18.3.1
     typescript: 5.0.4
   languageName: unknown
@@ -6714,6 +6724,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"matter-js@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "matter-js@npm:0.20.0"
+  checksum: 1d78cd475b3f076c4e7e4c18e388167b1e7aa5421cadc1273ec726d1c0bca405898bbe8cedb9dcd8c63fe9bf64eda626f0ccec3d8c359ee15c2fb637c1e9887a
+  languageName: node
+  linkType: hard
+
 "memoize-one@npm:^5.0.0":
   version: 5.2.1
   resolution: "memoize-one@npm:5.2.1"
@@ -7864,6 +7881,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-game-engine@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "react-native-game-engine@npm:1.2.0"
+  dependencies:
+    rxjs: ^6.2.2
+  peerDependencies:
+    react: ">= 16.3.0"
+    react-native: "*"
+  checksum: 6d27bb547f201400ca3c1fd25c69fa36ff9556095006df4c0f9e8b8ca8bc45335c7782edc3b85b50eb5fad6a1c126786b513b7c4f06d6badf82c87fc5bf573d2
+  languageName: node
+  linkType: hard
+
 "react-native@npm:0.75.2":
   version: 0.75.2
   resolution: "react-native@npm:0.75.2"
@@ -8250,6 +8279,15 @@ __metadata:
   dependencies:
     queue-microtask: ^1.2.2
   checksum: cb4f97ad25a75ebc11a8ef4e33bb962f8af8516bb2001082ceabd8902e15b98f4b84b4f8a9b222e5d57fc3bd1379c483886ed4619367a7680dad65316993021d
+  languageName: node
+  linkType: hard
+
+"rxjs@npm:^6.2.2":
+  version: 6.6.7
+  resolution: "rxjs@npm:6.6.7"
+  dependencies:
+    tslib: ^1.9.0
+  checksum: bc334edef1bb8bbf56590b0b25734ba0deaf8825b703256a93714308ea36dff8a11d25533671adf8e104e5e8f256aa6fdfe39b2e248cdbd7a5f90c260acbbd1b
   languageName: node
   linkType: hard
 
@@ -8974,7 +9012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.8.1":
+"tslib@npm:^1.8.1, tslib@npm:^1.9.0":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
